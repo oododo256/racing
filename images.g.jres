@@ -1,0 +1,27 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAACAiIiIAAAAAgoiIiAIA8CDIzc3NKPDwL9jc3Nwo//AvyM3NzSj/8CDY3NzcKPAAIMvNzc0rAAAgq6qqqisAACCrqqqqKwAAIKuqqqorAPAgq6qqqivw8C+7iIi4K//wL7uIiLgr//AAsv//vwLwAACy//+/AgAAACAiIiIAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "playercarright"
+    },
+    "image3": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAD//wAA//8AAPAPAADwDwAAICIiIiIiACCyu7u7iIgCsrurqsrNzSjyj6iq2tzcKPKPqKrKzc0o8o+oqtrc3Cjyj6iqys3NKPKPqKra3NwosrurqsrNzSggsru7u4iIAgAgIiIiIiIAAPAPAADwDwAA//8AAP//AA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "playercarup"
+    },
+    "image2": {
+        "data": "hwQQABAAAAAAACIiIgIAAAAg+///KwAADyD7//8rAA//souIiLvyD/+yi4iIu/IPD7Kqqqq6Ag8AsqqqqroCAACyqqqqugIAALKqqqq6AgAAstzc3LwCAA+Czc3NjQIP/4Lc3NyM8g//gs3NzY3yDw+C3NzcjAIPACCIiIgoAAAAACIiIgIAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "playercarleft"
+    },
+    "image4": {
+        "data": "hwQQABAAAAAA//8AAP//AADwDwAA8A8AACIiIiIiAgAgiIi7u7srAoLc3Kyqursrgs3NraqK+C+C3Nysqor4L4LNza2qivgvgtzcrKqK+C+Czc2tqor4L4Lc3KyqursrIIiIu7u7KwIAIiIiIiICAADwDwAA8A8AAP//AAD//wAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "playercardown"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
