@@ -17,6 +17,7 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
     }
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    enemyCar.setVelocity(randint(-50, 50), randint(-50, 50))
     if (playerDirection == 1) {
         playerCar.setVelocity(50, 0)
     }
@@ -44,9 +45,12 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 let playerDirection = 0
 let playerCar: Sprite = null
+let enemyCar: Sprite = null
+tiles.setCurrentTilemap(tilemap`testtrack`)
+enemyCar = sprites.create(assets.image`enemycarup`, SpriteKind.Player)
 playerCar = sprites.create(assets.image`playercarright`, SpriteKind.Player)
 scene.cameraFollowSprite(playerCar)
-tiles.setCurrentTilemap(tilemap`testtrack`)
+enemyCar.setBounceOnWall(true)
 game.onUpdate(function () {
     if (!(controller.anyButton.isPressed())) {
         playerCar.setVelocity(0, 0)

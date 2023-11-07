@@ -22,25 +22,6 @@ namespace myImages {
 . . . f f . . . . . . f f . . . 
 . . f f f f . . . . f f f f . . 
 `;
-            case "image3":
-            case "playercarup":return img`
-. . . . . 2 2 2 2 2 2 2 . . . . 
-. . . . 2 b f f f f f b 2 . . . 
-. f . . 2 b f f f f f b 2 . . f 
-. f f 2 b b 8 8 8 8 8 b b 2 f f 
-. f f 2 b b 8 8 8 8 8 b b 2 f f 
-. f . 2 b a a a a a a a b 2 . f 
-. . . 2 b a a a a a a a b 2 . . 
-. . . 2 b a a a a a a a b 2 . . 
-. . . 2 b a a a a a a a b 2 . . 
-. . . 2 b c d c d c d c b 2 . . 
-. f . 2 8 d c d c d c d 8 2 . f 
-. f f 2 8 c d c d c d c 8 2 f f 
-. f f 2 8 d c d c d c d 8 2 f f 
-. f . 2 8 c d c d c d c 8 2 . f 
-. . . . 2 8 8 8 8 8 8 8 2 . . . 
-. . . . . 2 2 2 2 2 2 2 . . . . 
-`;
             case "image2":
             case "playercarleft":return img`
 . . f f f f . . . . f f f f . . 
@@ -78,6 +59,44 @@ f f 2 b b 8 8 8 8 8 b b 2 f f .
 f . . 2 b f f f f f b 2 . . f . 
 . . . 2 b f f f f f b 2 . . . . 
 . . . . 2 2 2 2 2 2 2 . . . . . 
+`;
+            case "image3":
+            case "enemycarup":return img`
+. . . . . 5 5 5 5 5 5 5 . . . . 
+. . . . 5 b f f f f f b 5 . . . 
+. f . . 5 b f f f f f b 5 . . f 
+. f f 5 b b 8 8 8 8 8 b b 5 f f 
+. f f 5 b b 8 8 8 8 8 b b 5 f f 
+. f . 5 b 7 7 7 7 7 7 7 b 5 . f 
+. . . 5 b 7 7 7 7 7 7 7 b 5 . . 
+. . . 5 b 7 7 7 7 7 7 7 b 5 . . 
+. . . 5 b 7 7 7 7 7 7 7 b 5 . . 
+. . . 5 b 9 6 9 6 9 6 9 b 5 . . 
+. f . 5 8 6 9 6 9 6 9 6 8 5 . f 
+. f f 5 8 9 6 9 6 9 6 9 8 5 f f 
+. f f 5 8 6 9 6 9 6 9 6 8 5 f f 
+. f . 5 8 9 6 9 6 9 6 9 8 5 . f 
+. . . . 5 8 8 8 8 8 8 8 5 . . . 
+. . . . . 5 5 5 5 5 5 5 . . . . 
+`;
+            case "image5":
+            case "playercarup":return img`
+. . . . . 2 2 2 2 2 2 2 . . . . 
+. . . . 2 b f f f f f b 2 . . . 
+. f . . 2 b f f f f f b 2 . . f 
+. f f 2 b b 8 8 8 8 8 b b 2 f f 
+. f f 2 b b 8 8 8 8 8 b b 2 f f 
+. f . 2 b a a a a a a a b 2 . f 
+. . . 2 b a a a a a a a b 2 . . 
+. . . 2 b a a a a a a a b 2 . . 
+. . . 2 b a a a a a a a b 2 . . 
+. . . 2 b c d c d c d c b 2 . . 
+. f . 2 8 d c d c d c d 8 2 . f 
+. f f 2 8 c d c d c d c 8 2 f f 
+. f f 2 8 d c d c d c d 8 2 f f 
+. f . 2 8 c d c d c d c 8 2 . f 
+. . . . 2 8 8 8 8 8 8 8 2 . . . 
+. . . . . 2 2 2 2 2 2 2 . . . . 
 `;
         }
         return null;
